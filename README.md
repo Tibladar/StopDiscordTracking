@@ -9,6 +9,7 @@ This is a BetterDiscord plugin for stopping Discord tracking
 - Download the plugin [StopTracking.plugin.js](https://raw.githubusercontent.com/Tibladar/StopDiscordTracking/main/StopTracking.plugin.js) (Ctrl+S)
 - Open your plugins folder: BetterDiscord Settings -> Plugins -> Click on the button next to the heading
 - Move the downloaded file there
+- Activate the plugin in the BetterDiscord plugin menu
 
 
 ## Technical details
@@ -20,7 +21,7 @@ The plugin
 
 ## FAQ
 
-#### How do I verify this addon works?
+#### How can I verify this addon works?
 You can open the developer console (after you activated it in BetterDiscord settings) and look at the 'Network' tab.
 There shouldn't be any requests made to the science endpoint.
 
