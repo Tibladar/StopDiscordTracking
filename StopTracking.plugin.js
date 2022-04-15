@@ -4,7 +4,7 @@
  * @description Stops Discord tracking
  * @source https://github.com/Tibladar/StopDiscordTracking
  * @updateUrl https://raw.githubusercontent.com/Tibladar/StopDiscordTracking/main/StopTracking.plugin.js
- * @version 0.0.1
+ * @version 0.0.2
  */
 Object.defineProperty(exports, '__esModule', { value: true });
 class StopTracking {
@@ -29,7 +29,8 @@ class StopTracking {
 
             let origsetRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
             XMLHttpRequest.prototype.setRequestHeader = function(data) {
-                if (['X-Track', 'X-Super-Properties', 'X-Fingerprint'].includes(arguments[0])) {
+                // 'X-Super-Properties'
+                if (['X-Track', 'X-Fingerprint'].includes(arguments[0])) {
                     //console.log(arguments[0] + ' has been stripped');
                     return false;
                 }
