@@ -17,7 +17,7 @@ This is a BetterDiscord plugin for stopping Discord tracking
 The plugin
 - blocks requests to the [/science endpoint](https://github.com/KhafraDev/discord-verify/wiki/Trackers#apiv6science)
 - blocks requests to sentry.io
-- removes tracking headers like ['X-Super-Properties'](https://github.com/KhafraDev/discord-verify/wiki/X-Super-Properties#x-super-properties), 'X-Track', and 'X-Fingerprint'
+- removes tracking headers like ~~['X-Super-Properties'](https://github.com/KhafraDev/discord-verify/wiki/X-Super-Properties#x-super-properties)~~, 'X-Track', and 'X-Fingerprint'
 
 ## FAQ
 
