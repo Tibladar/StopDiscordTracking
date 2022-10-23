@@ -29,7 +29,7 @@ For checking the headers, click on any non-asset (e.g. no image) request and loo
 There shouldn't be the headers mentioned above.
 
 #### Will it be featured on betterdiscord.app?
-Probably not as this plugin modifies global functions which is prohibited in the [Plugin Policies](https://github.com/BetterDiscord/BetterDiscord/wiki/Addon-Policies).
+Probably not as this plugin modifies global functions which is prohibited in the [Plugin Guidelines](https://docs.betterdiscord.app/plugins/introduction/guidelines/#code).
 
 #### Is this the same as 'DoNotTrack' from Zerebos?
 No, this plugin
