@@ -4,7 +4,7 @@
  * @description Stops Discord tracking
  * @source https://github.com/Tibladar/StopDiscordTracking
  * @updateUrl https://raw.githubusercontent.com/Tibladar/StopDiscordTracking/main/StopTracking.plugin.js
- * @version 0.0.2
+ * @version 0.0.3
  */
 Object.defineProperty(exports, '__esModule', { value: true });
 class StopTracking {
@@ -12,7 +12,7 @@ class StopTracking {
         (function() {
             let origSend = XMLHttpRequest.prototype.send;
             XMLHttpRequest.prototype.send = function(data) {
-                let url = this.__sentry_xhr__.url;
+                let url = this.__sentry_xhr_v2__.url;
                 let popit = url.split('/').pop().split('?')[0];
                 if (['science'].includes(popit)) {
                     //console.log(popit + ' has been blocked');
