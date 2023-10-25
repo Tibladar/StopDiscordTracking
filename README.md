@@ -11,11 +11,16 @@ This is a BetterDiscord plugin for stopping Discord tracking
 - Move the downloaded file there
 - Activate the plugin in the BetterDiscord plugin menu
 
+## Updating
+
+There is an updater that displays a notification when an update is released:
+
+![update notice](https://github.com/Tibladar/StopDiscordTracking/assets/52620063/5537f12a-7290-4c5c-83e9-d40cea206301)
 
 ## Technical details
 
 The plugin
-- blocks requests to the [/science endpoint](https://github.com/KhafraDev/discord-verify/wiki/Trackers#apiv6science)
+- blocks requests to the [/science](https://github.com/KhafraDev/discord-verify/wiki/Trackers#apiv6science) and /metrics endpoint
 - blocks requests to sentry.io
 - removes tracking headers like ~~['X-Super-Properties'](https://github.com/KhafraDev/discord-verify/wiki/X-Super-Properties#x-super-properties)~~, 'X-Track', and 'X-Fingerprint'
 
